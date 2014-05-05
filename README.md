@@ -4,6 +4,16 @@ Percentage-wise-Image-Filling
 An Android applicatin which show you demo how to use Color image on Black & White to fill it with `Percentage` 
 parameter.
 
+Usage
+-------
+
+You need to have two images before implementing this demo. You can use following image which i have used in application.
+
+![Black & White Image](FillPercentageImageSample/res/drawable-hdpi/petrolpump_simple.jpg) 
+![Color Image](FillPercentageImageSample/res/drawable-hdpi/petrolpump.jpg)
+
+As you can see in the following image that, input parameter has `30` value. When you press `Fill it with Percentage entered` button, it will fill based on `Top To Bottom Fill` checkbox.
+
 ![Top To Bottom Filling](TopToBottomFilling.png)
 
 ![Bottom To Top Filling](BottomToTopFilling.png)
