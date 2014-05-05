@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/chkTopToBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top To Bottom Fill" />
+
+    <ImageView
+        android:id="@+id/coringImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/petrolpump_simple" />
+
+    <EditText
+        android:id="@+id/edtPercentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Please enter Percentage"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnFillIt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fill It with Percentage Entered" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnFillFull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill Image from 0 to 100" />
+
+</LinearLayout>
